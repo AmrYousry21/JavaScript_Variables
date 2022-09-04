@@ -4,7 +4,16 @@ console.log(
 );
 
 // Exercise 1
-
-// Exercise 2
-
+const firstName = "Amr";
+let LastName = "Yousry";
+var age = 26;
+//Exercise 2
+let fullName = firstName + " " + LastName;
+let templatFullname = `${firstName} ${LastName}`;
+console.log(fullName);
+console.log(templatFullname)
 // Exercise 3
+var city = "Jacksonville"
+var passtime = "Martial Arts"
+let myStory = `Hello my name is ${fullName}. I live in ${city}. I enjoy ${passtime} and coding!`;
+console.log(myStory);
